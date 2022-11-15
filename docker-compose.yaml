@@ -5,6 +5,7 @@ services:
     volumes:
       # - ./Mods:/root/.local/share/Terraria/tModLoader/Mods
       - ./Worlds:/root/.local/share/Terraria/tModLoader/Worlds
+      - ./ModConfigs:/root/.local/share/Terraria/tModLoader/ModConfigs
       - ./serverconfig.txt:/root/terraria-server/serverconfig.txt
       - ./install.txt:/root/terraria-server/install.txt
       - ./enabled.json:/root/.local/share/Terraria/tModLoader/Mods/enabled.json
